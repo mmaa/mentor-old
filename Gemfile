@@ -7,11 +7,11 @@ gem 'rails', '4.1.4'
 gem 'pg'
 gem 'devise'
 gem 'foundation-rails'
+gem 'slim-rails'
 gem 'sass-rails'
-gem 'uglifier'
 gem 'coffee-rails'
 gem 'jquery-rails'
-gem 'turbolinks'
+gem 'uglifier'
 
 group :development do
   gem 'spring'
