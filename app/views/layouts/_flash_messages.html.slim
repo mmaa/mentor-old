@@ -1,0 +1,9 @@
+- if alert
+  .alert-box.alert data-alert=''
+    = alert
+    = link_to '&times;'.html_safe, '#', class: 'close'
+
+- if notice
+  .alert-box data-alert=''
+    = notice
+    = link_to '&times;'.html_safe, '#', class: 'close'
